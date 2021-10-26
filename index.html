@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エクセルでスキルアップ 初心者～中級者のためのエクセル教室</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:400,700,900&display=swap&subset=japanese" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+  <link rel="icon" href="img/excel.png" type="image/png">
+  <link rel="icon" href="img/excel.svg" type="image/svg+xml">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="site">
+        <img src="img/logo.svg" alt="">
+      
+        <div>
+          <p class="corp">初心者～中級者のためのエクセル教室</p>
+          <p class="desc">エクセルを学んでスキルアップ！</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">会社情報</a></li>
+          <li><a href="#">学習プラン</a></li>
+          <li><a href="#">料金情報</a></li>
+          <li><a href="#" class="btn">お問い合わせ</a></li>
+        </ul>
+      </nav>
+
+      <button type="button" class="nav-button" onclick="navFunc()">
+        <span class="sr-only">MENU</span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="catch">
+      <div class="container">
+        <h1>ビジネスパーソンのためのエクセル教室</h1>
+        <p>あなたのニーズに合わせた学習プランを提供</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="message">
+    <div class="container">
+      <h2>現場ですぐに役立つ<br>実務に即したエクセル学習</h2>
+      <p>ビジネスやオフィスワークの現場では必ず使用するオフィスソフト、エクセル。<br>ビジネスパーソンにとっては今や必須のスキルと言えるでしょう。<br>
+        スピードと正確性が求められる現代の現場では、可能な限り無駄は作業を省き、より重要な業務にコミットする必要があります。<br>
+        当エクセル教室は、そのような業務改善の一環としてエクセル学習を提案してきました。<br>
+        法人・個人のお客様からたいへんご好評を頂いている、実務に即したエクセル学習をぜひご検討ください。
+      </p>
+    </div>
+  </section>
+
+  <section class="service">
+    <div class="container">
+      <h2>当エクセル教室の特徴</h2>
+      <p>あなたに合わせた学習を提供</p>
+
+
+      <div class="details">
+        <article class="detail plan">
+          <figure></figure>
+          <h3>レベルとニーズにあわせた<br>学習プランを提供</h3>
+          <p>あなたのスキルレベル、業務での必要をヒアリングし、ニーズに合わせた学習プランを提供します。<br>
+          これから学ぶ方は初級コース、中級者にはマクロ・VBAも学べる中級コースがおすすめです。</p>
+          <a href="#" class="btn">おすすめ学習プラン</a>
+        </article>
+
+        <article class="detail lesson">
+          <figure></figure>
+          <h3>オンライン授業も採用し<br>スキマ時間を活用できる</h3>
+          <p>大人数にも、マンツーマンにも対応したレッスンを展開しています。<br>
+          自宅で受講できるオンライン・リモート授業も可能ですので、場所や時間の希望に沿ったレッスンを提供します。</p>
+          <a href="#" class="btn">レッスン内容</a>
+        </article>
+
+        <article class="detail free">
+          <figure></figure>
+          <h3>無料お試しレッスンで<br>授業を体験できる</h3>
+          <p>本申込みの前に、無料体験レッスンを１時間受講できます。ぜひお気軽にお申し込みください。<br>料金プランの詳細はリンクからご確認ください。</p>
+          <a href="#" class="btn">料金情報</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="text">
+        <h2>お問い合わせ</h2>
+        <p>レッスンに関するお問い合わせはこちらからお願いします。<br>
+          その他資料請求、ご質問、無料体験に関する<br>お問い合わせも受け付けています。<br>
+          些細なことでもお気軽にお問い合わせください。</p>
+      </div>
+
+      <form class="form">
+        <p>
+          <label>
+            <span class="sr-only">名前</span>
+            <input type="text" name="name" placeholder="名前">
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="sr-only">メールアドレス</span>
+            <input type="email" name="email" placeholder="メールアドレス">
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="sr-only">メッセージ</span>
+            <textarea name="msg" placeholder="メッセージを入力してください"></textarea>
+          </label>
+        </p>
+        <p>
+          <input type="submit" value="送信" class="btn">
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="info">
+        <div class="site">
+          <div>
+            <p class="corp">初心者～中級者のためのエクセル教室</p>
+          </div>
+        </div>
+        
+          <p class="add">
+            〒741-2589<br>
+            山口県山口市中央区東丸山ビル204号<br>
+            0001-1234-5678
+          </p>
+      </div>
+
+      <ul class="sns">
+        <li><a href="#"><img src="img/logo-twitter.svg" alt="Twitter"></a></li>
+        <li><a href="#"><img src="img/logo-facebook.svg" alt="Facebook"></a></li>
+        <li><a href="#"><img src="img/logo-instagram.svg" alt="Instagram"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+    function navFunc() {
+      document.querySelector('html').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>
